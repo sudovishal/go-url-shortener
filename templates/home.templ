@@ -1,0 +1,21 @@
+package templates
+
+templ Home() {
+	<html>
+		<head>
+			<title>URL Shortener</title>
+			<script src="https://unpkg.com/htmx.org@2.0.1" integrity="sha384-QWGpdj554B4ETpJJC9z+ZHJcA/i59TyjxEPXiiUgN2WmTyV5OEZWCD6gQhgkdpB/" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="/static/style.css"/>
+		</head>
+		<body>
+			<nav class="navbar">
+				<div class="navbar-logo"><a href="/">URL Shortener</a></div>
+				<ul class="navbar-links">
+					<li><a href="/my-links">My Links</a></li>
+					<li><a href="/login">Login</a></li>
+					<li><a href="/signup">Signup</a></li>
+				</ul>
+			</nav>
+		</body>
+	</html>
+}
